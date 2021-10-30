@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="script.js"></script>
+</head>
+
+<body style="background-color:white">
+
+<div class="body">
+<h1 id="myHeader"><a onclick='change_heading()'><em>Climate Quiz</em></a></h1>
+ <div id="myHeader" style="display: none">
+    <b>Peekaboo</b>
+  </div>
+ <button onclick="show_hide()">PeeKaBoo</button>
+
+<hr>
+
+<h4>Basic Info.:</h4>
+<form method="get" action="">
+Nickname: <input type="text" name="answer" size="12"> <br><br>
+
+Country:
+	<select>
+	<option>Finland</option>
+	<option>China</option>
+	<option>United State</option>
+	<option>United Kingdom</option>
+</select><br><br>
+
+Age: <input type="text" name="answer" size="3"> <br><br>
+
+
+Gender:
+  <input type="radio" name="answerq1" value="Answer1" checked="checked"> Male
+  <input type="radio" name="answerq1" value="Answer2"> Female<br>
+</form>
+<hr>
+
+<h4>Please answer below questions:</h4>
+
+<p>1. What country has the most CO2 emissions in 2017?</p>
+<p style="font-size:13px; font:Arial"><em>[The source is from <a href="https://www.weforum.org/agenda/2019/06/chart-of-the-day-these-countries-create-most-of-the-world-s-co2-emissions/"> The World Economic Forum</a>]</em></p>
+<form method="get" action="">
+  <input type="radio" name="question1" value="Russia">Russia<br>
+  <input type="radio" name="question1" value="China">China<br>
+  <input type="radio" name="question1" value="United States">United States
+</form> 
+<hr>
+
+<h4>Your feedback is important to us!</h4>
+
+<p>When the user hovers the cursor on the answer field up and down arrows appear to select a number.</p>
+<form>
+  <p> On a scale of 1 being the poorest and 5 being the best what rating would you give this quiz?</p>
+Answer (between 1 and 10): <input type="number" name="rating" min="1" max="10" step="2">
+</form>
+
+<br>
+<button onclick="finishFunction()">Finish</button>
+<br>
+<a href="index.html"><button onclick="">Go back to the homepage</button></a>
+</body>
+</div>
+</html>
+

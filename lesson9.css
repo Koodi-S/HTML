@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.square1{
+	position:absolute;
+	right:0px;
+	width:100px;
+	height:100px;
+	background-color: #0f0;
+	opacity: 0.5;
+}
+
+.square2{
+	margin-right:100px;
+	height:100px;
+	background-color: #f23;
+	opacity: 0.5;
+}
